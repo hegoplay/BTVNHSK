@@ -1,9 +1,9 @@
 package qlSPham;
 
-public class Suplier {
+public class Supplier {
 	private String suplierName, country, website;
 
-	public Suplier(String suplierName, String country, String website) {
+	public Supplier(String suplierName, String country, String website) {
 		super();
 		this.setSuplierName(suplierName);
 		this.setCountry(country);

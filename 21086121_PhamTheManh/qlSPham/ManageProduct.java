@@ -56,9 +56,14 @@ public class ManageProduct {
 		nodeName.setTextContent(p.getProductName());
 		nodeP.appendChild(nodeName);
 		
+		Node nodeManu = doc.createElement("manufacture");
+		nodeManu.setTextContent(p.getManufacture());
+		nodeP.appendChild(nodeManu);
+		
 		Node nodeDes = doc.createElement("description");
 		nodeDes.setTextContent(p.getDescription());
 		nodeP.appendChild(nodeDes);
+		
 		
 
 		
@@ -151,6 +156,7 @@ public class ManageProduct {
 			Element nodeProduct = (Element)productList.item(i);
 			String id = nodeProduct.getAttribute("id");
 			String name = nodeProduct.getElementsByTagName("productName").item(0).getTextContent();
+			
 			String manufacture = nodeProduct.getElementsByTagName("manufacture").item(0).getTextContent();
 			String description = nodeProduct.getElementsByTagName("description").item(0).getTextContent();
 			
@@ -159,7 +165,7 @@ public class ManageProduct {
 			String supName = nodeSup.getElementsByTagName("suplierName").item(0).getTextContent();
 			String country = nodeSup.getElementsByTagName("country").item(0).getTextContent();
 			String website = nodeSup.getElementsByTagName("website").item(0).getTextContent();
-			Suplier sup = new Suplier(supName, country, website);
+			Supplier sup = new Supplier(supName, country, website);
 			
 			double price = Double.parseDouble(nodeProduct.getElementsByTagName("price").item(0).getTextContent());
 			Product product = new Product(id, name, manufacture, description, sup, price);

@@ -54,18 +54,18 @@ public class Testing {
 		String manufacture = sc.nextLine(); 
 		System.out.println("Enter description: "); 
 		String description= sc.nextLine(); 
-		Suplier supplier = createNewSupplier(); System.out.println("Enter price: "); double price = sc. nextDouble();
+		Supplier supplier = createNewSupplier(); System.out.println("Enter price: "); double price = sc. nextDouble();
 		return new Product (productID, name, manufacture, description, supplier, price);
 	}
 	
-	private static Suplier createNewSupplier() {
+	private static Supplier createNewSupplier() {
 		System.out.println("Enter supplier name: ");
 		String name = sc.nextLine();
 		System.out.println("Enter country: "); 
 		String country= sc.nextLine();
 		System.out.println("Enter website: ");
 		String website = sc.nextLine();
-		return new Suplier (name, country, website);
+		return new Supplier (name, country, website);
 	}
 	
 	
