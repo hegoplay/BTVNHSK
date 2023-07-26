@@ -1,318 +1,127 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <productList>
-                        	
-    
-    
-    
-    
-    
     <product id="TV1025">
-                                                		
-        
-        
-        
-        
-        
-        <productName>TV Led</productName>
-                                                		
-        
-        
-        
-        
-        
-        <manufacture>Sony</manufacture>
-                                                		
-        
-        
-        
-        
-        
-        <description>TV led voi cong nghe</description>
-                                                		
-        
-        
-        
-        
-        
+        <productName>
+            TV Led
+        </productName>
+        <manufacture>
+            Sony</manufacture>
+        <description>
+            TV led voi cong nghe
+        </description>
         <suplier>
-                                                                        			
-            
-            
-            
-            
-            
-            <suplierName>Thiên Hòa</suplierName>
-                                                                        			
-            
-            
-            
-            
-            
-            <country>Việt Nam</country>
-                                                                        			
-            
-            
-            
-            
-            
-            <website>www.thienhoa.com</website>
-                                                                        		
-        
-        
-        
-        
-        
+            <suplierName>
+                Thiên Hòa
+            </suplierName>
+            <country>
+                Việt Nam
+            </country>
+            <website>
+                www.thienhoa.com
+            </website>
         </suplier>
-                                                		
-        
-        
-        
-        
-        
-        <price>500.0</price>
-                                                		
-    
-    
-    
-    
-    
+        <price>
+            500.0
+        </price>
     </product>
-                        		
-    
-    
-    
-    
-    
     <product id="Phone1002">
-                                                		
-        
-        
-        
-        
-        
-        <productName>DT NOKIA lumia 630</productName>
-                                                		
-        
-        
-        
-        
-        
-        <manufacture>nokia</manufacture>
-                                                		
-        
-        
-        
-        
-        
-        <description>Điện thoại cảm ứng</description>
-                                                		
-        
-        
-        
-        
-        
+        <productName>
+            DT NOKIA lumia 630
+        </productName>
+        <manufacture>
+            nokia
+        </manufacture>
+        <description>
+            Điện thoại cảm ứng
+        </description>
         <suplier>
-                                                                        		
-            
-            
-            
-            
-            
-            <suplierName>FBT</suplierName>
-                                                                        		
-            
-            
-            
-            
-            
-            <country>Việt Nam</country>
-                                                                        		
-            
-            
-            
-            
-            
-            <website>www.fbt.com</website>
-                                                                        		
-        
-        
-        
-        
-        
+            <suplierName>
+                FBT
+            </suplierName>
+            <country>
+                Việt Nam
+            </country>
+            <website>
+                www.fbt.com
+            </website>
         </suplier>
-                                                		
-        
-        
-        
-        
-        
-        <price>800.0</price>
-                                                		
-    
-    
-    
-    
-    
+        <price>
+            800.0
+        </price>
     </product>
-                        		
-    
-    
-    
-    
-    
     <product id="IPhone5S">
-                                                		
-        
-        
-        
-        
-        
-        <productName>Điện thoại IPhne 5S</productName>
-                                                		
-        
-        
-        
-        
-        
-        <manufacture>Apple</manufacture>
-                                                		
-        
-        
-        
-        
-        
-        <description>Điện thoại cảm ứng</description>
-                                                		
-        
-        
-        
-        
-        
+        <productName>
+            Điện thoại IPhne 5S
+        </productName>
+        <manufacture>
+            Apple
+        </manufacture>
+        <description>
+            Điện thoại cảm ứng
+        </description>
         <suplier>
-                                                                        		
-            
-            
-            
-            
-            
-            <suplierName>Thế giới di động</suplierName>
-                                                                        		
-            
-            
-            
-            
-            
-            <country>Việt Nam</country>
-                                                                        		
-            
-            
-            
-            
-            
-            <website>www.diDong.com</website>
-                                                                        		
-        
-        
-        
-        
-        
+            <suplierName>
+                Thế giới di động
+            </suplierName>
+            <country>
+                Việt Nam
+            </country>
+            <website>
+                www.diDong.com
+            </website>
         </suplier>
-                                                		
-        
-        
-        
-        
-        
-        <price>1200.0</price>
-                                                	
-    
-    
-    
-    
-    
+        <price>
+            1200.0
+        </price>
     </product>
-                        
-    
-    
-    
-    
-    
     <product id="SSA12">
-                                                
-        
-        
-        
-        
-        <productName>Samsung A12</productName>
-                                                
-        
-        
-        
-        
-        <manufacture>Samsung</manufacture>
-                                
-        
-        
-        
-        
-        <description>dafhajdfkahsdfkjadfajklhdfajkhdflka</description>
-                                                
-        
-        
-        
-        
+        <productName>
+            Samsung A12
+        </productName>
+        <manufacture>
+            Samsung
+        </manufacture>
+        <description>
+            dafhajdfkahsdfkjadfajklhdfajkhdflka
+        </description>
         <suplier>
-                                                                        
-            
-            
-            
-            
-            <suplierName>Samsung company</suplierName>
-                                                                        
-            
-            
-            
-            
-            <country>Korean</country>
-                                                                        
-            
-            
-            
-            
-            <website>www.samsung.com</website>
-                                                                    
-        
-        
-        
-        
+            <suplierName>
+                Samsung company
+            </suplierName>
+            <country>
+                Korean
+            </country>
+            <website>
+                www.samsung.com
+            </website>
         </suplier>
-                                                
-        
-        
-        
-        
-        <price>4000000.0</price>
-                                            
-    
-    
-    
-    
+        <price>
+            4000000.0
+        </price>
     </product>
-                    
-
-
-    
-
-
     <product id="SSA13">
-        <productName>Samsung A13</productName>
-        <manufacture>Samsung</manufacture>
-        <description>Dien thoai moi</description>
+        <productName>
+            Samsung A13
+        </productName>
+        <manufacture>
+            Samsung
+        </manufacture>
+        <description>
+            Điện thoại mới
+        </description>
         <suplier>
-            <suplierName>Samsung coporation</suplierName>
-            <country>Korean</country>
-            <website>www.samsung.com</website>
+            <suplierName>
+                Samsung coporation
+            </suplierName>
+            <country>
+                Korean
+            </country>
+            <website>
+                www.samsung.com
+            </website>
         </suplier>
-        <price>80000.0</price>
+        <price>
+            80000.0
+        </price>
     </product>
 </productList>

@@ -1,19 +1,15 @@
 package qlSPham;
-
 import java.util.Scanner;
-
 public class Testing {
-
 	public static Scanner sc = new Scanner(System.in);
-	
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		int choice;
 		ManageProduct dom = new ManageProduct();
 		boolean flag = true;
 		do {
 			createMenu();
 			choice = sc.nextInt();
-			switch (choice) {
+			switch(choice){
 			case 1:
 				sc.nextLine();
 				Product p = createNewProduct();
@@ -43,10 +39,9 @@ public class Testing {
 				break;
 			}
 		}
-		while (flag);
+		while(flag);
 	}
-
-	private static Product createNewProduct() { 
+	private static Product createNewProduct(){ 
 		System.out.println("Enter productID: "); 
 		String productID = sc.nextLine(); System.out.println("Enter name: "); 
 		String name = sc.nextLine();
@@ -57,8 +52,7 @@ public class Testing {
 		Supplier supplier = createNewSupplier(); System.out.println("Enter price: "); double price = sc. nextDouble();
 		return new Product (productID, name, manufacture, description, supplier, price);
 	}
-	
-	private static Supplier createNewSupplier() {
+	private static Supplier createNewSupplier(){
 		System.out.println("Enter supplier name: ");
 		String name = sc.nextLine();
 		System.out.println("Enter country: "); 
@@ -67,9 +61,7 @@ public class Testing {
 		String website = sc.nextLine();
 		return new Supplier (name, country, website);
 	}
-	
-	
-	private static void createMenu() {
+	private static void createMenu(){
 		System.out.println("---Menu---");
 		System.out.println("1. Add product");
 		System.out.println("2. Delete product");
@@ -78,8 +70,5 @@ public class Testing {
 		System.out.println("5. Write XML file");
 		System.out.println("0. Exit");
 		System.out.println("Your choice: ");
-		
 	}
 }
-
-

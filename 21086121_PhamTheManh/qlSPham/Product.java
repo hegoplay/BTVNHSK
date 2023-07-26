@@ -1,12 +1,10 @@
 package qlSPham;
-
 import java.util.Objects;
-
 public class Product {
 	private String id,productName, manufacture,description;
 	private Supplier suplier;
 	private double price;
-	public Product(String id, String productName, String manufacture, String description, Supplier suplier, double price) {
+	public Product(String id, String productName, String manufacture, String description, Supplier suplier, double price){
 		super(); 
 		this.setId(id);
 		this.setProductName(productName);
@@ -16,11 +14,11 @@ public class Product {
 		this.setPrice(price);
 	}
 	@Override
-	public int hashCode() {
+	public int hashCode(){
 		return Objects.hash(id);
 	}
 	@Override
-	public boolean equals(Object obj) {
+	public boolean equals(Object obj){
 		if (this == obj)
 			return true;
 		if (obj == null)
@@ -30,41 +28,40 @@ public class Product {
 		Product other = (Product) obj;
 		return Objects.equals(id, other.id);
 	}
-	public String getManufacture() {
+	public String getManufacture(){
 		return manufacture;
 	}
-	public void setManufacture(String manufacture) {
+	public void setManufacture(String manufacture){
 		this.manufacture = manufacture;
 	}
-	public Supplier getSuplier() {
+	public Supplier getSuplier(){
 		return suplier;
 	}
-	public void setSuplier(Supplier suplier) {
+	public void setSuplier(Supplier suplier){
 		this.suplier = suplier;
 	}
-	public double getPrice() {
+	public double getPrice(){
 		return price;
 	}
-	public void setPrice(double price) {
+	public void setPrice(double price){
 		this.price = price;
 	}
-	public String getProductName() {
+	public String getProductName(){
 		return productName;
 	}
-	public void setProductName(String productName) {
+	public void setProductName(String productName){
 		this.productName = productName;
 	}
-	public String getDescription() {
+	public String getDescription(){
 		return description;
 	}
-	public void setDescription(String description) {
+	public void setDescription(String description){
 		this.description = description;
 	}
-	public String getId() {
+	public String getId(){
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(String id){
 		this.id = id;
 	}
-	
 }
